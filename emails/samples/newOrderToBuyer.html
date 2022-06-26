@@ -1,0 +1,249 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Order Email for Buyer</title>
+    <style>
+      body {
+        font-size: 16px;
+        background-color: #ddd;
+        margin: 0;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .email-box {
+        width: 60%;
+        margin: auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin-top: 20px;
+      }
+      .xx-small {
+        font-size: 14px;
+      }
+      .card {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+      .card-body {
+        padding: 10px;
+      }
+      .card-header {
+        padding: 10px;
+        background: #ddd;
+      }
+      .row {
+        display: flex;
+        /* align-items: center; */
+      }
+      .justify-content-between {
+        justify-content: space-between;
+        width: 100%;
+      }
+      .col-6 {
+        flex: 50% 0 1;
+      }
+      .ml-3 {
+        margin-left: 1rem;
+      }
+      .mr-3 {
+        margin-right: 1rem;
+      }
+      .mb-2 {
+        margin-bottom: 1rem;
+      }
+      .mt-2 {
+        margin-top: 1rem;
+      }
+      .p-2 {
+        padding: 1rem;
+      }
+      .image {
+        width: 40px;
+        height: 40px;
+        background-color: #ddd;
+        border-radius: 5px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      table {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      @media screen and (max-width: 900px) {
+        .row {
+          flex-wrap: wrap;
+        }
+        .email-box {
+          width: 100%;
+          margin: auto;
+        }
+        .col-6 {
+          flex: 100% 0 1;
+        }
+        .ml-md-0 {
+          margin-left: 0px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-box">
+      <main>
+        <div class="my-3">
+          <div style="text-align: center">
+            <img
+              src="https://ripples-assets.s3.eu-west-2.amazonaws.com/logo.png"
+              alt="Ripples Logo"
+            />
+          </div>
+          <p>Dear AYOBAMI,</p>
+          <p>Thank you for shopping on Ripples!</p>
+          <p>Your order 394911413 has been confirmed successfully.</p>
+          <p>
+            It will be packed and shipped as soon as possible.You will receive a
+            notification from us once the item (s) are available for door
+            delivery or collection from your selected Pick-up station.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-header">Your Note to Seller</div>
+          <div class="card-body">
+            Hello seller, I want the shoes to be size 34 and grey color.
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 mt-2">
+            <div class="card">
+              <div class="card-header">Estimated delivery date(s)</div>
+              <div class="card-body">Between 15-Feb-2022 and 15-Feb-2022</div>
+            </div>
+          </div>
+          <div class="col-6 ml-3 ml-md-0 mt-2">
+            <div class="card">
+              <div class="card-header">Delivery method</div>
+              <div class="card-body">Collection from our Pickup Station</div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 mt-2">
+            <div class="card">
+              <div class="card-header">Recipient details</div>
+              <div class="card-body">AYOBAMI USMAN +2348036137042</div>
+            </div>
+          </div>
+          <div class="col-6 ml-3 ml-md-0 mt-2">
+            <div class="card">
+              <div class="card-header">Delivery address</div>
+              <div class="card-body">
+                NG-3PL PDC_Mile 12_Alapere Ketu-PUS - 23A Olalowo Street Off
+                Emmanuel Street Alapere Ketu Lagos Ketu-Alapere
+              </div>
+            </div>
+          </div>
+        </div>
+        <h4>You ordered for:</h4>
+        <table class="card">
+          <thead style="background-color: #ddd">
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Item</th>
+              <!-- <th scope="col"></th> -->
+              <th scope="col">Quantity</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>
+                <div
+                  style="background-image: url('https://picsum.photos/200')"
+                  class="image mr-3"
+                ></div>
+              </th>
+              <td>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+                architecto.
+              </td>
+              <th>1</th>
+              <td>&#8358; 3,000</td>
+            </tr>
+            <tr>
+              <th>
+                <div
+                  style="background-image: url('https://picsum.photos/200')"
+                  class="image mr-3"
+                ></div>
+              </th>
+              <td>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+                architecto.
+              </td>
+              <th>1</th>
+              <td>&#8358; 56,780</td>
+            </tr>
+            <tr>
+              <th>
+                <div
+                  style="background-image: url('https://picsum.photos/200')"
+                  class="image mr-3"
+                ></div>
+              </th>
+              <td>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+                architecto.
+              </td>
+              <th>1</th>
+              <td>&#8358; 4,500</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="card p-2">
+          <div class="row justify-content-between mb-2">
+            <span colspan="3">Sub-total</span>
+            <span colspan="2">&#8358; 100</span>
+          </div>
+          <div class="row justify-content-between mb-2">
+            <span colspan="3">Shipping</span>
+            <span colspan="2">&#8358; 300</span>
+          </div>
+          <div class="row justify-content-between mb-2">
+            <span colspan="3">Total</span>
+            <span colspan="2">&#8358; 60,000</span>
+          </div>
+          <div class="row justify-content-between mb-2">
+            <span colspan="3">PAYMENT METHOD </span>
+            <span colspan="2">Prepaid</span>
+          </div>
+        </div>
+        <div>
+          <h4><small>We are here to help</small></h4>
+          <div>
+            <small>
+              Have any questions or need more information? Just shoot us an
+              <a href="mailto:contact@useripples.com">email</a>! We’re always
+              here to help. Feel free to hit us up on
+              <a href="https://web.facebook.com/Monaly-101778559047541"
+                >Facebook</a
+              >
+              or <a href="https://twitter.com/usemonaly?s=11">Twitter</a>, if
+              you want a fast response, too.
+            </small>
+          </div>
+        </div>
+      </main>
+      <footer class="p-2 text-center bg-light mt-5 xx-small">
+        <small class="text-secondary"> Ripples Inc. </small>
+      </footer>
+    </div>
+  </body>
+</html>
